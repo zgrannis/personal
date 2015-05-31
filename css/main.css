@@ -2,6 +2,13 @@
 GENERAL
 ***********************************/
 
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
   font-family: 'Quicksand', sans-serif;
 }
@@ -70,17 +77,41 @@ h2 {
 }
 
 .profile-pic {
-  display: block;
+  display: inline-block;
   max-width: 55px;
   margin: 0 auto 30px;
   border-radius: 100%;
 }
 
+.main-pic {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto 15px;
+  border-radius: 0%;
+  padding-right: 2.5px;
+  padding-left: 2.5px;
+}
+
 .lions-pic {
   display: block;
   max-width: 100%;
-  margin: 0 auto 10px;
+  margin: 0 auto 2.5px;
   border-radius: 0%;
+  padding-right: 2.5px;
+  padding-left: 2.5px;
+}
+
+@media screen and (min-width: 700px) {
+
+.lions-pic {
+  display: inline-block;
+  max-width: 33%;
+  margin: 0 auto 2.5px;
+  border-radius: 0%;
+  padding-right: 2.5px;
+  padding-left: 2.5px;
+}
+  
 }
 
 .inventory-pic {
