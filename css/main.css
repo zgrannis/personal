@@ -17,6 +17,16 @@ body {
   max-width: 940px;
   margin: 0 auto;
   padding: 0 5%;
+  list-style: none;
+  text-align: center;
+}
+
+#fin-wrapper {
+  max-width: 45%;
+  margin: 0 auto;
+  padding: 0 5%;
+  list-style: none;
+  text-align: center;
 }
 
 a {
@@ -85,7 +95,7 @@ h2 {
 
 .main-pic {
   display: block;
-  max-width: 100%;
+  max-width: 80%;
   margin: 0 auto 15px;
   border-radius: 0%;
   padding-right: 2.5px;
@@ -165,7 +175,7 @@ footer {
 }
 
 /***********************************
-PAGE ABOUT
+PAGES
 ***********************************/
 
 .alist {
