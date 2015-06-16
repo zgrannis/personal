@@ -21,7 +21,7 @@ body {
   text-align: center;
 }
 
-#fin-wrapper {
+.finance {
   max-width: 45%;
   margin: 0 auto;
   padding: 0 5%;
