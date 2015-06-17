@@ -32,6 +32,19 @@ body {
   text-align: left;
 }
 
+.header {
+  font-family: "brandon-grotesque", sans-serif;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 5%;
+  font-size: 2.0em;
+  font-weight: 500;
+  line-height: 3.0em;
+  list-style-type: none;
+  text-align: center;
+  font-style: italic;
+}
+
 .itemhead {
   font-family: "brandon-grotesque", sans-serif;
   max-width: 100%;
