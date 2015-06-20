@@ -25,11 +25,31 @@ body {
   max-width: 100%;
   margin: 0 auto;
   padding: 0 5%;
-  font-size: 1.25em;
+  font-size: 0.75em;
   font-weight: 400;
   line-height: 2.0em;
   list-style-type: none;
   text-align: left;
+}
+
+.finance li:before {
+    content:'+';
+    display: inline-block;
+    margin-right: 6px; 
+  }
+
+@media screen and (min-width: 700px) {
+
+.finance {
+  font-family: "brandon-grotesque", sans-serif;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 5%;
+  font-size: 1.0em;
+  font-weight: 400;
+  line-height: 2.0em;
+  list-style-type: none;
+  }
 }
 
 .header {
