@@ -20,6 +20,20 @@ body {
   text-align: center;
 }
 
+.video_inner {
+  padding-top: 0;
+  position: relative;
+  padding-bottom: 56.25%;
+}
+
+.video_outer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
 .finance {
   font-family: "brandon-grotesque", sans-serif;
   max-width: 100%;
