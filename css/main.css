@@ -178,6 +178,15 @@ h2 {
   padding-left: 2.5px;
 }
 
+.media {
+  display: inline-block;
+  max-width: 50%;
+  margin: 0 auto 2.5px;
+  border-radius: 0%;
+  padding-right: 2.5px;
+  padding-left: 2.5px;
+}
+
 .lions-pic {
   display: block;
   max-width: 100%;
@@ -192,6 +201,15 @@ h2 {
 .lions-pic {
   display: inline-block;
   max-width: 33%;
+  margin: 0 auto 2.5px;
+  border-radius: 0%;
+  padding-right: 2.5px;
+  padding-left: 2.5px;
+}
+
+.media {
+  display: inline-block;
+  max-width: 100%;
   margin: 0 auto 2.5px;
   border-radius: 0%;
   padding-right: 2.5px;
