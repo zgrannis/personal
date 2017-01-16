@@ -20,6 +20,13 @@ body {
   text-align: center;
 }
 
+#gall {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 0 5%;
+  text-align: center;
+}
+
 .video_inner {
   padding-top: 0;
   position: relative;
@@ -200,11 +207,11 @@ h2 {
 
 .lions-pic {
   display: inline-block;
-  max-width: 33%;
+  max-width: 25%;
   margin: 0 auto 2.5px;
   border-radius: 0%;
-  padding-right: 2.5px;
-  padding-left: 2.5px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .media {
@@ -233,6 +240,7 @@ nav {
   text-align: center;
   padding: 0;
   margin: 0;
+  font-size: 0.9em;
 }
 
 @media screen and (min-width: 700px) {
@@ -241,7 +249,7 @@ nav {
   text-align: right;
   margin: 0;
   padding: 0;
-  font-size: 1.0em;
+  font-size: 0.9em;
 }
   
 }  
@@ -332,6 +340,29 @@ PAGES
   
 } 
 
+.clist {
+  display: block;
+  font-size: 0.85em;
+  text-align: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+}
+
+@media screen and (min-width: 700px) {
+
+.clist {
+  display: block;
+  font-size: 0.85em;
+  text-align: right;
+  list-style: none;
+  padding: 0 33px 0 0;
+  margin: 0 40px 0 0;  
+
+}
+  
+} 
 
 
 /***********************************
