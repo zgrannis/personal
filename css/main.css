@@ -285,6 +285,7 @@ PAGES
 
 .alist {
   display: block;
+  font-size: 0.85em;
   text-align: center;
   list-style: none;
   padding: 10px;
@@ -296,6 +297,7 @@ PAGES
 
 .alist {
   display: block;
+  font-size: 0.85em;
   text-align: left;
   list-style: none;
   padding: 0;
@@ -308,6 +310,7 @@ PAGES
 
 .blist {
   display: block;
+  font-size: 0.85em;
   text-align: center;
   list-style: none;
   padding: 0;
@@ -319,10 +322,11 @@ PAGES
 
 .blist {
   display: block;
+  font-size: 0.85em;
   text-align: right;
   list-style: none;
   padding: 0 30px 0 30px;
-  margin: 0;
+  margin: 0;  
 
 }
   
