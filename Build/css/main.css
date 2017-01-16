@@ -1,0 +1,343 @@
+/***********************************
+GENERAL
+***********************************/
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+#wrapper {
+  max-width: 840px;
+  margin: 0 auto;
+  padding: 0 5%;
+  text-align: center;
+}
+
+.video_inner {
+  padding-top: 0;
+  position: relative;
+  padding-bottom: 56.25%;
+}
+
+.video_outer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.finance {
+  font-family: "brandon-grotesque", sans-serif;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 5%;
+  font-size: 0.75em;
+  font-weight: 400;
+  line-height: 2.0em;
+  list-style-type: none;
+  text-align: left;
+}
+
+.finance li:before {
+    content:'+';
+    display: inline-block;
+    margin-right: 6px; 
+  }
+
+@media screen and (min-width: 700px) {
+
+.finance {
+  font-family: "brandon-grotesque", sans-serif;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 5%;
+  font-size: 1.0em;
+  font-weight: 400;
+  line-height: 2.0em;
+  list-style-type: none;
+  }
+}
+
+.header {
+  font-family: "brandon-grotesque", sans-serif;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 5%;
+  font-size: 1.0em;
+  font-weight: 500;
+  line-height: 3.0em;
+  list-style-type: none;
+  text-align: center;
+  font-style: italic;
+}
+
+.embed {
+  font-family: "brandon-grotesque", sans-serif;
+  max-width: 100%;
+  margin: 10 auto;
+  padding: 0 5%;
+  font-size: 1.0em;
+  font-weight: 500;
+  line-height: 3.0em;
+  list-style-type: none;
+  text-align: center;
+  font-style: italic;
+}
+
+.itemhead {
+  font-family: "brandon-grotesque", sans-serif;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 5%;
+  font-size: 1.3em;
+  font-weight: 500;
+  line-height: 3.0em;
+  list-style-type: none;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+h3 {
+  margin: 0 0 1em 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/***********************************
+HEADING
+***********************************/
+
+header {
+  float: left;
+  margin: 0 0 15px 0;
+  padding: 10px 0 0 0;
+  width: 100%;
+}
+
+
+#logo {
+  text-align: center;
+  margin: 0;
+  font-size: 1.0em;
+}
+
+@media screen and (min-width: 700px) {
+
+#logo {
+  text-align: center;
+  margin: 0;
+  font-size: 2.0em;
+}
+  
+}
+
+h1 {
+  font-family: "brandon-grotesque", sans-serif;
+  margin: 15px 0;
+  font-size: 1.75em;
+  font-weight: 500;
+  line-height: 0.8em;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 0.75em;
+  margin: -5px 0 0;
+  font-weight: normal;
+}
+
+.profile-pic {
+  display: inline-block;
+  max-width: 55px;
+  margin: 0 auto 30px;
+  border-radius: 100%;
+}
+
+.main-pic {
+  display: block;
+  max-width: 80%;
+  margin: 0 auto 15px;
+  border-radius: 0%;
+  padding-right: 2.5px;
+  padding-left: 2.5px;
+}
+
+.media {
+  display: inline-block;
+  max-width: 50%;
+  margin: 0 auto 2.5px;
+  border-radius: 0%;
+  padding-right: 2.5px;
+  padding-left: 2.5px;
+}
+
+.lions-pic {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto 2.5px;
+  border-radius: 0%;
+  padding-right: 2.5px;
+  padding-left: 2.5px;
+}
+
+@media screen and (min-width: 700px) {
+
+.lions-pic {
+  display: inline-block;
+  max-width: 33%;
+  margin: 0 auto 2.5px;
+  border-radius: 0%;
+  padding-right: 2.5px;
+  padding-left: 2.5px;
+}
+
+.media {
+  display: inline-block;
+  max-width: 100%;
+  margin: 0 auto 2.5px;
+  border-radius: 0%;
+  padding-right: 2.5px;
+  padding-left: 2.5px;
+}
+  
+}
+
+.inventory-pic {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto 30px;
+  border-radius: 0%;
+}
+
+/***********************************
+NAVIGATION
+***********************************/
+
+nav {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  font-weight: lighter;
+  padding: 0;
+}
+
+/***********************************
+FOOTER
+***********************************/
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #ccc
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+/***********************************
+PAGES
+***********************************/
+
+.alist {
+  display: block;
+  text-align: center;
+  list-style: none;
+  padding: 0;
+  margin: 0 auto 30px;
+}
+
+.blist {
+  display: block;
+  text-align: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+}
+
+
+/***********************************
+COLORS
+***********************************/
+
+/* site body */
+body {
+  background-color: #fff; 
+  color: #000;
+}
+
+/* header */
+header {
+  background: #fff;
+  border-color: #fff;
+}
+
+/* nav background on mobile */
+nav {
+  background: #fff;
+}
+
+/* header text */
+h1, h2 {
+  color: #000;
+}
+
+/* links*/
+a {
+  color: #000;
+}
+
+/* nav link */
+nav a, nav a:visited {
+  color: #000;
+}
+
+/* selected nav link */
+nav a.selected, nav a:hover {
+  font-weight: 900;     
+}
+
+
+/* Updates */
+h1,h2,h3,h4,h5,h6 {
+  font-family: "brandon-grotesque",sans-serif;
+  font-weight: 400;
+}
+
+h1, {
+  text-transform: uppercase;
+}
