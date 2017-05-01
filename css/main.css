@@ -206,6 +206,7 @@ h2 {
   display: inline-block;
   max-width: 50%;
   margin-left: 25%;
+  margin-right: 25%;
 }
 
 
@@ -214,7 +215,7 @@ h2 {
 .zg-icon {
   display: inline-block;
   max-width: 15%;
-  margin: 0 0 0 87%;
+  margin: 0 0 0 86%;
 }
 
 .lions-pic {
