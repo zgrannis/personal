@@ -202,8 +202,20 @@ h2 {
   padding-right: 2.5px;
   padding-left: 2.5px;
 }
+.zg-icon {
+  display: inline-block;
+  max-width: 50%;
+  margin-left: 25%;
+}
+
 
 @media screen and (min-width: 700px) {
+
+.zg-icon {
+  display: inline-block;
+  max-width: 15%;
+  margin: 0 0 0 87%;
+}
 
 .lions-pic {
   display: inline-block;
