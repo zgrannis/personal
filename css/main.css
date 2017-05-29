@@ -42,7 +42,7 @@ body {
 }
 
 .finance {
-  font-family: "brandon-grotesque", sans-serif;
+  font-family: 'Quicksand', sans-serif;
   max-width: 100%;
   margin: 0 auto;
   padding: 0 5%;
@@ -62,7 +62,7 @@ body {
 @media screen and (min-width: 700px) {
 
 .finance {
-  font-family: "brandon-grotesque", sans-serif;
+  font-family: 'Quicksand', sans-serif;
   max-width: 100%;
   margin: 0 auto;
   padding: 0 5%;
@@ -74,7 +74,7 @@ body {
 }
 
 .header {
-  font-family: "brandon-grotesque", sans-serif;
+  font-family: 'Quicksand', sans-serif;
   max-width: 100%;
   margin: 0 auto;
   padding: 0 5%;
@@ -87,7 +87,7 @@ body {
 }
 
 .embed {
-  font-family: "brandon-grotesque", sans-serif;
+  font-family: 'Quicksand', sans-serif;
   max-width: 100%;
   margin: 10 auto;
   padding: 0 5%;
@@ -100,7 +100,7 @@ body {
 }
 
 .itemhead {
-  font-family: "brandon-grotesque", sans-serif;
+  font-family: 'Quicksand', sans-serif;
   max-width: 100%;
   margin: 0 auto;
   padding: 0 5%;
@@ -155,7 +155,7 @@ header {
 }  
 
 h1 {
-  font-family: "brandon-grotesque", sans-serif;
+  font-family: 'Quicksand', sans-serif;
   margin: 10px 0;
   font-size: 1.75em;
   font-weight: 500;
@@ -185,6 +185,15 @@ h2 {
   padding-left: 2.5px;
 }
 
+.name-pic {
+  float: right;
+  display: inline-block;
+  max-width: 80%;
+  margin: 0 auto;
+  border-radius: 0%;
+  padding-right: 2.5px;
+  padding-left: 2.5px;
+}
 .media {
   display: inline-block;
   max-width: 50%;
@@ -422,7 +431,7 @@ nav a.selected, nav a:hover {
 
 /* Updates */
 h1,h2,h3,h4,h5,h6 {
-  font-family: "brandon-grotesque",sans-serif;
+  font-family: 'Quicksand',sans-serif;
   font-weight: 400;
 }
 
