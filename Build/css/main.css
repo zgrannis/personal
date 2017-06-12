@@ -144,12 +144,36 @@ header {
   font-size: 1.0em;
 }
 
+.name-pic {
+  float: center;
+  height: 75px;
+  display: inline-block;
+  max-width: 80%;
+  margin: 0 0 0 100px;
+  border-radius: 0%;
+  padding-right: 2.5px;
+  padding-left: 2.5px;
+
+}
+
 @media screen and (min-width: 700px) {
 
 #logo {
   text-align: right;
   margin: 0;
   font-size: 1.0em;
+}
+
+
+.name-pic {
+  float: right;
+  height: 100px;
+  display: inline-block;
+  max-width: 80%;
+  margin: 0 auto;
+  border-radius: 0%;
+  padding-right: 2.5px;
+  padding-left: 2.5px;
 }
   
 }  
@@ -185,16 +209,6 @@ h2 {
   padding-left: 2.5px;
 }
 
-.name-pic {
-  float: right;
-  height: 100px;
-  display: inline-block;
-  max-width: 80%;
-  margin: 0 auto;
-  border-radius: 0%;
-  padding-right: 2.5px;
-  padding-left: 2.5px;
-}
 .media {
   display: inline-block;
   max-width: 50%;
